@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9b9b9b;
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Product_icon_Android" transform="translate(-662.68 109.475)">
+    <rect id="矩形_7692" data-name="矩形 7692" class="cls-1" width="20" height="20" transform="translate(662.68 -109.475)"/>
+    <g id="组_7642" data-name="组 7642" transform="translate(211.02 -1362.395)">
+      <path id="路径_10408" data-name="路径 10408" class="cls-2" d="M466.855,1259.478l1.488-2.578a.5.5,0,0,0-.866-.5l-1.45,2.512a8.414,8.414,0,0,0-8.734,0l-1.45-2.512a.5.5,0,0,0-.866.5l1.488,2.578a8.482,8.482,0,0,0-3.3,6.712v1a2.5,2.5,0,0,0,2.5,2.5h12a2.5,2.5,0,0,0,2.5-2.5v-1A8.482,8.482,0,0,0,466.855,1259.478Zm2.3,7.712a1.5,1.5,0,0,1-1.5,1.5h-12a1.5,1.5,0,0,1-1.5-1.5v-1a7.5,7.5,0,0,1,15,0Z"/>
+      <circle id="椭圆_2951" data-name="椭圆 2951" class="cls-2" cx="1" cy="1" r="1" transform="translate(463.16 1262.69)"/>
+      <circle id="椭圆_2952" data-name="椭圆 2952" class="cls-2" cx="1" cy="1" r="1" transform="translate(458.16 1262.69)"/>
+    </g>
+  </g>
+</svg>
