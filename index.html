@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>产品中心</title>
+    <title>介绍</title>
     <style>
         body, html {
             margin: 0;
@@ -25,39 +25,7 @@
     <img src="images/img_04.jpg">
     <img src="images/img_05.jpg">
 
-    <script>
-        function base64Decode(base64) {
-            return atob(base64); 
-        }
-
-        
-        const encryptedUrls = [
-            'aHR0cHM6Ly9oay1jZG4wMi5vc3MtY24taG9uZ2tvbmcuYWxpeXVuY3MuY29tL1BvdGF0b19EZXNrdG9wMi4zNy56aXA=',
-            'aHR0cHM6Ly9oay1jZG4wMi5vc3MtY24taG9uZ2tvbmcuYWxpeXVuY3MuY29tL1BvdGF0b19EZXNrdG9wMi4zNy56aXA=', 
-            'aHR0cHM6Ly9oay1jZG4wMi5vc3MtY24taG9uZ2tvbmcuYWxpeXVuY3MuY29tL1BvdGF0b19EZXNrdG9wMi4zNy56aXA=',
-            'aHR0cHM6Ly9oay1jZG4wMi5vc3MtY24taG9uZ2tvbmcuYWxpeXVuY3MuY29tL1BvdGF0b19EZXNrdG9wMi4zNy56aXA=',
-            'aHR0cHM6Ly9oay1jZG4wMi5vc3MtY24taG9uZ2tvbmcuYWxpeXVuY3MuY29tL1BvdGF0b19EZXNrdG9wMi4zNy56aXA='
-        ];
-
-        
-        const images = document.querySelectorAll('img');
-
-        
-        images.forEach((img, index) => {
-            img.addEventListener('click', () => downloadFile(index));
-        });
-
-        function downloadFile(imageIndex) {
-            const encodedUrl = encryptedUrls[imageIndex]; 
-            const url = base64Decode(encodedUrl); 
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = ''; 
-            document.body.appendChild(link); 
-            link.click(); 
-            document.body.removeChild(link); 
-        }
-    </script>
+   
 
 </body>
 </html>
